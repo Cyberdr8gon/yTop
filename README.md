@@ -1,38 +1,18 @@
-# electron-quick-start
+#yTop
 
-**Clone and run for a quick way to see an Electron in action.**
+Watching confrence talks or lectures or following along on a tutorial on youtube sucks.
+You have to split the screen and then constantly fuss that its the right size and if you make the window too small, it gets smaller.
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
 
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
+#Dependancies
+Be sure electron is installed globally, you can do that with:
+npm install -g Electron
 
-A basic Electron application needs just these files:
+#Installation
+clone the repo then
+npm install
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+then add yTop/bin to your path and you are all done
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies and run the app
-npm install && npm start
-```
-
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
-
-## Other Example Apps
-
-For more example apps, see the
-[list of boilerplates](http://electron.atom.io/community/#boilerplates)
-created by the awesome electron community.
-
-#### License [CC0 (Public Domain)](LICENSE.md)
+#Usage
+pass a youtube VideoID as the first and only arguement
