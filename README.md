@@ -12,6 +12,8 @@ npm install -g Electron
 clone the repo then
 npm install
 
+change the ../main.js in the ytop.bat to the absolute path of the main.js in the root of the directory
+
 then add yTop/bin to your path and you are all done
 
 #Usage
