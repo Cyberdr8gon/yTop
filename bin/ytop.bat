@@ -1,1 +1,1 @@
-electron ../main.js %1
+electron C:\Users\Samue\Apps\yTop/main.js %1
